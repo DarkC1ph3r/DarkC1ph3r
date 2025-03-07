@@ -16,7 +16,7 @@ jobs:
     - name: Fetch TryHackMe Badge
       uses: DhanushNehru/tryhackme-badge-action-workflow@v1.0
       with:
-        image_path: <iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=707653" style='border:none;'></iframe>
-        username: 'THM_USERNAME'
-        user_id: 'THM_USER_ID'
+        image_path: './assets/tryhackme-badge.png'
+        username: 'Ahmed.0te1n'
+        user_id: '707653'
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
